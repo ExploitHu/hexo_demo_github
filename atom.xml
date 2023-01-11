@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>岛田悠米</title>
+  <icon>https://yuumiy.github.io/icon.png</icon>
+  <subtitle>心中有梦 不负韶华</subtitle>
+  <link href="https://yuumiy.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://yuumiy.github.io/"/>
+  <updated>2022-10-19T15:03:30.000Z</updated>
+  <id>https://yuumiy.github.io/</id>
+  
+  <author>
+    <name>Yuumiy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网络编程学习</title>
+    <link href="https://yuumiy.github.io/posts/3a8b.html"/>
+    <id>https://yuumiy.github.io/posts/3a8b.html</id>
+    <published>2022-10-19T15:03:30.000Z</published>
+    <updated>2022-10-19T15:03:30.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;网络编程学习&quot;&gt;&lt;a href=&quot;#网络编程学习&quot; class=&quot;headerlink&quot; title=&quot;网络编程学习&quot;&gt;&lt;/a&gt;网络编程学习&lt;/h1&gt;&lt;h1 id=&quot;NIO基础&quot;&gt;&lt;a href=&quot;#NIO基础&quot; class=&quot;headerlink&quot; title=&quot;NIO基础&quot;&gt;&lt;/a&gt;NIO基础&lt;/h1&gt;&lt;p&gt;在JavaSE的学习中，了解到如何使用IO进行数据传输，Java IO是阻塞的，如果在一次读写数据调用时数据还没有准备好，或者目前不可写，那么读写操作就会被阻塞直到数据准备好或目标可写为止。Java NIO则是非阻塞的，每一次数据读写调用都会立即返回，并将目前可读（或可写）的内容写入缓冲区或者从缓冲区中输出，即使当前没有可用数据，调用仍然会立即返回并且不对缓冲区做任何操作。&lt;/p&gt;
+&lt;p&gt;NIO框架是在JDK1.4推出的，它的出现就是为了解决传统IO的不足。&lt;/p&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="网络编程" scheme="https://yuumiy.github.io/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>并发编程学习</title>
+    <link href="https://yuumiy.github.io/posts/1197.html"/>
+    <id>https://yuumiy.github.io/posts/1197.html</id>
+    <published>2022-09-28T14:50:19.000Z</published>
+    <updated>2022-09-28T14:50:19.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;并发编程学习&quot;&gt;&lt;a href=&quot;#并发编程学习&quot; class=&quot;headerlink&quot; title=&quot;并发编程学习&quot;&gt;&lt;/a&gt;并发编程学习&lt;/h1&gt;&lt;h1 id=&quot;一、认识多线程&quot;&gt;&lt;a href=&quot;#一、认识多线程&quot; class=&quot;headerlink&quot; title=&quot;一、认识多线程&quot;&gt;&lt;/a&gt;一、认识多线程&lt;/h1&gt;&lt;p&gt;在我们的操作系统之上，可以同时运行很多个进程，并且每个进程之间相互隔离互不干扰。我们的CPU会通过时间片轮转算法，为每一个进程分配时间片，并在时间片使用结束后切换下一个进程继续执行，通过这种方式来实现宏观上的多个程序同时运行。&lt;/p&gt;
+&lt;p&gt;由于每个进程都有一个自己的内存空间，进程之间的通信就变得非常麻烦（比如要共享某些数据）而且执行不同进程会产生上下文切换，非常耗时，那么有没有一种更好地方案呢？&lt;/p&gt;
+&lt;p&gt;后来，线程横空出世，一个进程可以有多个线程，线程是程序执行中一个单一的顺序控制流程，现在线程才是程序执行流的最小单元，各个线程之间共享程序的内存空间（也就是所在进程的内存空间），上下文切换速度也高于进程。&lt;/p&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="并发编程" scheme="https://yuumiy.github.io/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式学习</title>
+    <link href="https://yuumiy.github.io/posts/1141.html"/>
+    <id>https://yuumiy.github.io/posts/1141.html</id>
+    <published>2022-09-28T14:48:56.000Z</published>
+    <updated>2022-09-28T14:48:56.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;设计模式学习&quot;&gt;&lt;a href=&quot;#设计模式学习&quot; class=&quot;headerlink&quot; title=&quot;设计模式学习&quot;&gt;&lt;/a&gt;设计模式学习&lt;/h1&gt;&lt;h2 id=&quot;一、面向对象设计原则-7原则&quot;&gt;&lt;a href=&quot;#一、面向对象设计原则-7原则&quot; class=&quot;headerlink&quot; title=&quot;一、面向对象设计原则(7原则)&quot;&gt;&lt;/a&gt;一、面向对象设计原则(7原则)&lt;/h2&gt;&lt;p&gt;我们在进行软件开发时，不仅需要将基本的业务给完成，还要考虑整个项目的可维护性和可复用性，我们开发的项目不单单需要我们自己来维护，也需要其他的开发者一起来进行共同维护，因此我们在编写代码时，应该尽可能的规范。如果我们在编写代码时不注重这些问题，随着项目的不断扩大，整体结构只会越来越糟。为了避免这种情况的发生，我们就可以使用设计模式&lt;/p&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="设计模式" scheme="https://yuumiy.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jdk9-17 新特性</title>
+    <link href="https://yuumiy.github.io/posts/c1f7.html"/>
+    <id>https://yuumiy.github.io/posts/c1f7.html</id>
+    <published>2022-09-15T15:43:49.000Z</published>
+    <updated>2022-09-15T15:43:49.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;Java新特性介绍&quot;&gt;&lt;a href=&quot;#Java新特性介绍&quot; class=&quot;headerlink&quot; title=&quot;Java新特性介绍&quot;&gt;&lt;/a&gt;Java新特性介绍&lt;/h1&gt;&lt;p&gt;Java 8是Oracle 公司于 2014 年 3 月 18 日发布的，距离今天已经过了近十年的时间了，Java并没有就此止步，而是继续不断发展壮大，几乎每隔6个月，就会冒出一个新版本，最新的版本已经快要迭代到Java 20了，与Java 8相差了足足十来个版本，但是由于Java 8的稳定和生态完善（目前仍是LTS长期维护版本），依然有很多公司在坚持使用Java 8，不过随着SpringBoot 3.0的到来，现在强制要求使用Java 17版本（同样也是LTS长期维护版本），下一个Java版本的时代，或许已经临近了。&lt;/p&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="jdk新特性" scheme="https://yuumiy.github.io/tags/jdk%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>谷粒商城学习总结</title>
+    <link href="https://yuumiy.github.io/posts/7f37.html"/>
+    <id>https://yuumiy.github.io/posts/7f37.html</id>
+    <published>2022-09-07T13:31:35.000Z</published>
+    <updated>2022-09-07T13:31:35.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;谷粒商城学习总结&quot;&gt;&lt;a href=&quot;#谷粒商城学习总结&quot; class=&quot;headerlink&quot; title=&quot;谷粒商城学习总结&quot;&gt;&lt;/a&gt;谷粒商城学习总结&lt;/h1&gt;&lt;p&gt;第一遍学习完结撒花，第一遍主要是熟悉整个项目背景。&lt;/p&gt;
+&lt;p&gt;第二遍打算结合视频独立完成，熟悉项目的整体设计、优秀业务代码的编写，并输出学习笔记。&lt;/p&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="项目" scheme="https://yuumiy.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="谷粒商城" scheme="https://yuumiy.github.io/tags/%E8%B0%B7%E7%B2%92%E5%95%86%E5%9F%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>尚医通学习总结</title>
+    <link href="https://yuumiy.github.io/posts/943f.html"/>
+    <id>https://yuumiy.github.io/posts/943f.html</id>
+    <published>2022-04-23T07:42:39.000Z</published>
+    <updated>2022-04-23T07:42:39.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;尚医通学习总结&quot;&gt;&lt;a href=&quot;#尚医通学习总结&quot; class=&quot;headerlink&quot; title=&quot;尚医通学习总结&quot;&gt;&lt;/a&gt;尚医通学习总结&lt;/h1&gt;&lt;p&gt;尚医通完结撒花！&lt;/p&gt;
+&lt;p&gt;视频来自&lt;a href=&quot;https://www.bilibili.com/video/BV1V5411K7rT&quot;&gt;Java微服务+分布式+全栈项目【尚医通】&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="项目" scheme="https://yuumiy.github.io/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="尚医通" scheme="https://yuumiy.github.io/tags/%E5%B0%9A%E5%8C%BB%E9%80%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jdk8新特性</title>
+    <link href="https://yuumiy.github.io/posts/f6d8.html"/>
+    <id>https://yuumiy.github.io/posts/f6d8.html</id>
+    <published>2022-03-20T04:22:06.000Z</published>
+    <updated>2022-03-20T04:22:06.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;jdk8新特性学习，视频来自&lt;a href=&quot;https://www.bilibili.com/video/BV1HV411W78K&quot;&gt;2021最新版JDK8新特性详解&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="jdk新特性" scheme="https://yuumiy.github.io/tags/jdk%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot学习笔记</title>
+    <link href="https://yuumiy.github.io/posts/251e.html"/>
+    <id>https://yuumiy.github.io/posts/251e.html</id>
+    <published>2021-09-15T15:53:20.000Z</published>
+    <updated>2021-09-15T16:13:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;p&gt;关于SpringBoot的学习笔记，视频来自&lt;a href=&quot;https://www.bilibili.com/video/BV19K4y1L7MT&quot;&gt;雷丰阳SpringBoot2021&lt;/a&gt;&lt;br&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://yuumiy.github.io/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络学习笔记</title>
+    <link href="https://yuumiy.github.io/posts/c7f5.html"/>
+    <id>https://yuumiy.github.io/posts/c7f5.html</id>
+    <published>2021-08-29T12:15:30.000Z</published>
+    <updated>2021-09-07T06:13:55.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;开始路途漫漫的计算机网络学习吧，视频来自&lt;a href=&quot;https://www.bilibili.com/video/BV1c4411d7jb&quot;&gt;计算机网络微课堂&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://cdn.nlark.com/yuque/0/2021/jpeg/12855610/1630208621955-a4a8ad3a-087d-4521-ab8a-0ca28358b4fd.jpeg?x-oss-process=image/resize,w_750,limit_0&quot;&gt;&lt;br&gt;​</summary>
+    
+    
+    
+    <category term="笔记" scheme="https://yuumiy.github.io/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="计算机网络" scheme="https://yuumiy.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows和IDEA的常用快捷键</title>
+    <link href="https://yuumiy.github.io/posts/bde9.html"/>
+    <id>https://yuumiy.github.io/posts/bde9.html</id>
+    <published>2021-08-17T08:45:08.000Z</published>
+    <updated>2021-09-17T08:51:35.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;博主作为一个Java后端攻城狮，开发过程中不免要使用许多的快捷键。合理使用快捷键能极大提高工作效率，那么这么多的快捷键又该记住哪些呢，把所有快捷键都记下显然是不太现实的。因此我根据平时的使用习惯，总结了自己在Windows和IDEA中常用的快捷键。&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    <category term="工具" scheme="https://yuumiy.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="IDEA" scheme="https://yuumiy.github.io/tags/IDEA/"/>
+    
+    <category term="Windows" scheme="https://yuumiy.github.io/tags/Windows/"/>
+    
+    <category term="快捷键" scheme="https://yuumiy.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建自己的个人博客网站(Github+Hexo+Next)</title>
+    <link href="https://yuumiy.github.io/posts/2789.html"/>
+    <id>https://yuumiy.github.io/posts/2789.html</id>
+    <published>2021-08-14T03:22:35.000Z</published>
+    <updated>2021-09-16T07:51:20.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;从大二开始就一直很想有一个属于自己的博客网站，可一拖再拖，直到最近才下了决心去搭建一个网站。在网上了解到基于Hexo的博客搭建比较简单并且美观，在查阅了许多教程，走过无数坑后，写下了这篇文章。本文主要讲解个人博客网站的搭建，内容比较详细，适合小白食用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;网页预览：&lt;a href=&quot;https://yuumiy.github.io/&quot;&gt;https://yuumiy.github.io&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="工具" scheme="https://yuumiy.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="博客" scheme="https://yuumiy.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://yuumiy.github.io/tags/Github/"/>
+    
+    <category term="Hexo" scheme="https://yuumiy.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://yuumiy.github.io/posts/3eeb.html"/>
+    <id>https://yuumiy.github.io/posts/3eeb.html</id>
+    <published>2021-08-11T03:05:08.000Z</published>
+    <updated>2021-08-12T01:07:53.000Z</updated>
+    
+    
+    <summary type="html">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;
+
+&lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello World!&quot;&gt;&lt;/a&gt;Hello World!&lt;/h1&gt;&lt;p&gt;由Hexo Next搭建的博客网站，这是第一篇博客！&lt;/p&gt;
+&lt;p&gt;文章将有以下分类：工具、技术、笔记、思考、生活、阅读&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://yuumiy.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="博客" scheme="https://yuumiy.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
